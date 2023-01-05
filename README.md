@@ -100,6 +100,11 @@ We got some very good results, especially with our KNN based model. Our 'cold-st
 - Consider weighting movies based on genre or year released, several of these movies being returned are classics, but quite old
 
 
+#### Contact Info
+- Briodonn1021@gmail.com
+-
+
+
 
 ### Repository Structure:
 
