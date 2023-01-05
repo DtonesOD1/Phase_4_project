@@ -5,7 +5,7 @@ DS Phase 4 Recommendation System project
 This project uses the data made available by the 'MovieLens' dataset, which contains 4 CSV files where information such as movie titles, ratings and users are stored. The goal of this project is to create a recommendation system for a new online movie streaming company. We will import the CSV files, inspect and clean the data, perform EDA and then build our models. 
 ### Business Understanding
 
-Our stakeholder is a new start-up company who are attempting to build their own movie streaming service. I have been tasked with creating a recommendation system based off a collection of user movie reviews. Another aspect that will need to be addresses is how to recommend movies for a new user, something that is often call the 'cold-start' problem. 
+Our stakeholder is a new start-up company, "Nu-Stream", who are attempting to build their own movie streaming service. I have been tasked with creating a recommendation system based off a collection of user movie reviews. Another aspect that will need to be addresses is how to recommend movies for a new user, something that is often call the 'cold-start' problem. 
 I believe after the completion of the models our stakeholder will be able to properly suggest appropriate movies to their customers.
 
 
@@ -102,7 +102,7 @@ We got some very good results, especially with our KNN based model. Our 'cold-st
 
 #### Contact Info
 - Briodonn1021@gmail.com
--
+- January 5, 2023
 
 
 
