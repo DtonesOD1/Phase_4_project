@@ -98,3 +98,13 @@ We got some very good results, especially with our KNN based model. Our 'cold-st
 -  Continue to test and re-run the models every few months
 -  Continue to use the Cold-Start engine to gain better insight into recommendation for the customers
 - Consider weighting movies based on genre or year released, several of these movies being returned are classics, but quite old
+
+
+
+### Repository Structure:
+
+## ---Project Models Notebook
+## ---Project Notebook PDF
+## ---README
+## ---MovieLens Data ZipFile
+## ---Project Presentation PDF
