@@ -12,8 +12,24 @@ I believe after the completion of the models our stakeholder will be able to pro
 ### Data Understanding
 The 'MovieLens' dataset is provided by the GroupLens research lab at the university of Minnesota. As stated it is well documented dataset that contains everything from movie titles and ID's, user ID's and ratings, and movie genres. It is a great asset to companies in our position and should have the information we need to build our models. 
 
-We Will now beging by importing the libraries we will need in this project along with the MovieLens CSV files.
-***
+We begin by importing the libraries we will need in this project along with the MovieLens CSV files.
+
+##### Movies by Year
+A visual to represent year distribution:
+
+![movie_year](https://user-images.githubusercontent.com/93612651/210814334-261a92ac-d927-4262-a0ff-3ff8e9272195.png)
+
+
+##### Movies by Genre
+![genre](https://user-images.githubusercontent.com/93612651/210814685-e90e96a8-93ce-4616-b134-903caaffbbb1.png)
+
+
+##### Movies by Rating
+
+![ratings](https://user-images.githubusercontent.com/93612651/210814789-1b67f96c-4e17-467e-8094-f23c04f805eb.png)
+
+
+
 
 #### Colloborative Filtering with User-Item Matrix
 I created several tables that can be used for a matrix. This is used in our recommendation system to represent the interactions between users and items, for example where each row is a userId and each column is an item, which in our case is a movie. 
@@ -49,6 +65,14 @@ A lower RMSE score indicates that the model is making more accurate predictions,
 In a recommendation system, the MAE is calculated by taking the absolute value of the difference between the predicted ratings and the actual ratings in the test set, and averaging these differences over the number of ratings in the test set.
 
 Like the root mean squared error (RMSE), the MAE is a measure of the average error of the model's predictions. However, unlike the RMSE, the MAE does not square the errors before averaging them, which means that it is less sensitive to large errors and may be more appropriate for data with a large number of outliers. And again,the lower the score the better.
+
+
+### Algorithm Results
+
+<img width="392" alt="Screen Shot 2023-01-05 at 2 53 43 PM" src="https://user-images.githubusercontent.com/93612651/210878059-f1fbfe35-1f1c-4171-8c8b-47cc3c1f1a08.png">
+
+
+After the running and fitting the algorithms we ended up with respectable RSME and MAE scores. These metrics can be used to measure the difference between our models predicted rating and the actual rating.
 
 
 ### Predictions 
