@@ -5,14 +5,14 @@ DS Phase 4 Recommendation System project
 This project uses the data made available by the 'MovieLens' dataset, which contains 4 CSV files where information such as movie titles, ratings and users are stored. The goal of this project is to create a recommendation system for a new online movie streaming company. We will import the CSV files, inspect and clean the data, perform EDA and then build our models. 
 ### Business Understanding
 
-Our stakeholder is a new start-up company, "Nu-Stream", who are attempting to build their own movie streaming service. I have been tasked with creating a recommendation system based off a collection of user movie reviews. Another aspect that will need to be addresses is how to recommend movies for a new user, something that is often call the 'cold-start' problem. 
-I believe after the completion of the models our stakeholder will be able to properly suggest appropriate movies to their customers.
+Our stakeholder is a new start-up company, "Nu-Stream", who are attempting to build their own movie streaming service. I have been tasked with creating a recommendation system based off a collection of user-based movie reviews from the MovieLens dataset. Another aspect that will need to be addressed is how to recommend movies for a new user, something that is often call the 'cold-start' problem. 
+I believe after the completion of the models <em>Nu-Stream</em> will be able to properly suggest appropriate movies to their customers.
 
 
 ### Data Understanding
-The 'MovieLens' dataset is provided by the GroupLens research lab at the university of Minnesota. As stated it is well documented dataset that contains everything from movie titles and ID's, user ID's and ratings, and movie genres. It is a great asset to companies in our position and should have the information we need to build our models. 
+The 'MovieLens' dataset is provided by the GroupLens research lab at the university of Minnesota. As stated it is well documented dataset that contains everything from movie titles and ID's, user ID's, ratings, and movie genres. It is a great asset to companies in our position and should have the information we need to build our models. 
 
-We begin by importing the libraries we will need in this project along with the MovieLens CSV files.
+We begin by importing the libraries we will need in this project along with the MovieLens CSV files. Then begins the process of scrubbing and exploring the data.
 
 ##### Movies by Year
 A visual to represent year distribution:
